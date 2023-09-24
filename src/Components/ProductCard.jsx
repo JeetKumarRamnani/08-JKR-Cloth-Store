@@ -16,7 +16,7 @@ const truncatedTitle =
 
 console.log(title.length )
     return (
-    <div className="Prdouct-Card  md:w-72  md:p-2  rounded-lg overflow-hidden shadow-3xl">
+    <div className="Prdouct-Card  md:w-64 lg:w-72  md:p-2  rounded-lg overflow-hidden shadow-3xl">
         <div className="Product-Image w-full h-40">
             <img src={image} alt={title} className="h-full w-full object-cover" />
         </div>
