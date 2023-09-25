@@ -6,6 +6,7 @@ import AboutUs from "./Pages/AboutUs";
 import ContactUs from "./Pages/ContactUs";
 import Gallery from "./Pages/Gallery";
 import NotFound from "./Pages/NotFound";
+import ProductDetails from "./Components/ProductDetails";
 
 export default function App() {
   return (
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/contact-us" element={<ContactUs />} />
 
           <Route path="/gallery" element={<Gallery />} />
+          <Route path="/products/:slug" element={<ProductDetails />} />
           <Route path="*" element={<NotFound />} />
 
         </Routes>
